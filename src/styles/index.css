@@ -1,12 +1,23 @@
 
-/* 
+.contador{
+    text-align: center;
+    margin:200px;
+    margin-top: 1px;
+    background-color: black;
+    border-width: 20px;
+    border-color: gray;
+    border-style: solid;
+    padding: 10px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.contador div{
+    display: inline-block;
+    width: 150px;
+    color: greenyellow;
+    font-size: 200px;
+    line-height: 110px;
+}
 
-*/
+.digClock{
+    margin-right: 40px;
+}
